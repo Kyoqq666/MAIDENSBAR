@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo</h1>
+    <a href="carrinho.html">Carrinho 🛒</a>
+  </header>
+
+  <main>
+    <div class="catalog">
+      <div class="product-card">
+        <h2>Combo 1</h2>
+        <p>Delicioso combo com hambúrguer e batata frita.</p>
+        <p><strong>R$ 25,00</strong></p>
+        <button onclick="addToCart('Combo 1', 25.00)">Adicionar</button>
+      </div>
+
+      <div class="product-card">
+        <h2>Combo 2</h2>
+        <p>Combo especial com hambúrguer duplo e refrigerante.</p>
+        <p><strong>R$ 30,00</strong></p>
+        <button onclick="addToCart('Combo 2', 30.00)">Adicionar</button>
+      </div>
+
+      <div class="product-card">
+        <h2>Combo 3</h2>
+        <p>Opção mais leve com sanduíche e suco natural.</p>
+        <p><strong>R$ 18,50</strong></p>
+        <button onclick="addToCart('Combo 3', 18.50)">Adicionar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
